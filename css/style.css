@@ -1,5 +1,14 @@
-nav {
-    border-radius: 10px solid;
+*
+nav>a{
+    text-align: center;
+    background-color: lightcyan;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border: 1px solid;
+    color: rgb(27, 25, 130);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px
+
     /* border-style: dotted; */
     /* align-content: center; */
     /* text-align: center; */
@@ -8,4 +17,13 @@ nav {
     /* padding-left: 30px; */
     /* padding-right: 40px; */
     /* border-spacing: 30px; */
+}
+.namebar {
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
 }
