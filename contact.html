@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Joyce CV</title>
-  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\form.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -49,122 +49,137 @@
         <li>Can Be Payed with Food</li>
     </ul> -->
 
-    <section id="call"><h2><b>Call Me</b></h2>
+    <section id="form"><h2><b>Call Me</b></h2>
     <form>
       <div>
         <ul>
           <label>Name</label>
-          <input placeholder="klo gk punya kasi '-' aj"><br>
+          <input placeholder="klo gk punya kasi '-' aj" required><br>
     
           <label>Email</label>
-          <input placeholder="don't forget the '@'" required>
+          <input placeholder="don't forget the '@'" required><br>
+
+          <label for="date">Date of Birth:</label>
+          <input type="date" id="birth"name="birthday" required>
           <button type="submit">Submit</button>
         </ul>
         <textarea id="script" name="ddd" rows="3" cols="40">express your concerns</textarea>
-      </div>
-    </form>
-    </p></section>
+      </div><br><br>
 
-    <section id="form">
-      <h2><b>Sign This First</b><sub>...plz</sub></h2>
-      <form><div>
+        <div>
         <h5>Your Course Choice?</h5>
         <input type="radio" id="html" name="course">
         <label for="html">Technology</label>
 
-        <input type="radio" id="html" name="course">
-        <label for="html">Digital Business</label>
+        <input type="radio" id="htm" name="course">
+        <label for="htm">Digital Business</label>
 
-        <input type="radio" id="html" name="course">
-        <label for="html">Business</label>
+        <input type="radio" id="ht" name="course">
+        <label for="ht">Business</label>
+        </div><br>
+        <br>
+
+
         <!-- CHECKBOX -->
         <h5>Why Choose This Course?</h5>
-        <ul><input type="checkbox" id="html" name="course">
-        <label for="html">My Passion</label></ul>
+    <ul><input type="checkbox" id="pas" name="course">
+        <label for="pas">My Passion</label></ul>
+    <ul>
+        <input type="checkbox" id="par" name="course">
+        <label for="par">Parents said so</label>
+    </ul>
+    <ul>
+        <input type="checkbox" id="idk" name="course">
+        <label for="idk">idk why i choose this either</label>
+    </ul><br><br><br><br><br><br><br><br><br><br>
+
+<div style="color: aliceblue;">
+    <h5 style="font-size: large;">Are You Scared of Darkness?</h5>
+        <div>
+            <input type="radio" id="are" name="dark">
+            <label for="are" style="cursor: pointer;">A. Yes</label>
+
+            <input type="radio" id="you" name="dark">
+            <label for="you">B. No</label>
+
+            <input type="radio" id="scared" name="dark">
+            <label for="scared">C. Sometimes</label>
+        </div><br><br>
+
+
+        <h5 style="font-size: large;">Do you feel like being watched when you sleep?</h5>
+        <div>
+            <input type="radio" id="yes" name="watch">
+            <label for="yes" style="cursor: pointer;">A. Yes</label>
+
+            <input type="radio" id="no" name="watch">
+            <label for="no">B. No</label>
+
+            <input type="radio" id="help" name="watch">
+            <label for="help">C. <del>t̷͔̱̳͛͛̇͑̓͑͐̀̀h̷̢̞̰̓͊̎̍̌͒͑͐̌̍ȩ̸͓̰̙̳̌͜y̴̡̧̻̝̳̗̙̦̰͇̖̤̩̑̇̆̐͒̏͐̕͘͜ ̵̤̣̱̐̀͂͆̒̏͊͌͜͝ḁ̵̛̘͓̾̉̽̌͌̕͘͘͝r̵̡͓̙̥̙̪̱̺̖̮͐̀̍́̆̅͂̅͆̚͝ͅe̴̠̠̰̙̿̀͌̋̈́́̊̕ ̷̨͚̺̼͚͙̠̳͉̯͌̏̒͒́̈́̏͑͛̕w̷͍̝͚̹̣̬̗̹̫̰̞͇͖̜̣̋̑͒a̸̡̟̭̠̩͉̦̥̝̥̲̥̜͒͋̓̎͊͊͋͜͝͝ţ̸̤̥͖̮̗͚̺̒̍̊͑͜c̷̫̜̦̲̪͉̦̠̺̣̙̤̣̈́͑͗͌̓̓̏͑͑̕͝h̷̨̧̭̞̪͇̖̳͖̪̫͇͕͚̤͊̉͋̿̑͛̽i̵̡̨͇̝̻̩̤̺͈̪͕͓͉̓͋̂̀͜͜͝n̵̤̮͙̰͓̳̜͇̥̱̰̑͛͊̂̅͋̑̏͒̕ͅg̴͕̯͍̤̙̬͖̟͙͎͇̥̣̀̓͛̌͐̉̆͂</del></label>
+        </div><br>
+
+        <h5 style="font-size: large;">Do You Feel Someone Behind You?</h5>
         <ul>
-        <input type="checkbox" id="html" name="course">
-        <label for="html">Parents said so</label>
-      </ul></div>
+            <input type="radio" id="yes2" name="no">
+            <label for="yes2" style="cursor: pointer;">A. Yes</label><br>
+        
+            <input type="radio" id="sos" name="no">
+            <label for="sos">B. 0̸̤̀1̴͍̋0̵̺̈́1̶̥̒0̵̯̾0̴͙́1̸̞̄1̸̭̚ ̵͖͌0̶͈͝1̵̫̈0̶̋ͅ0̵̞́1̴̳̚1̸̳͝1̸̲̓1̴̥̊ ̸̹͘0̷͔͝1̶͔̒0̷͖͛1̷̠͒0̷̗̓0̸̮͌1̶̱̈́1̸̔ͅ</label>
+        </ul>
+    </div>
 
-      <ul>
-        <input type="checkbox" id="html" name="course">
-        <label for="html">idk why i choose this either</label>
-      </ul>
-
-        <label>Email</label>
-        <input placeholder="again" required>
-        <button type="submit">Submit</button><br>
-    
-        <label for="date">Date of Birth:</label>
-        <input type="date" id="birth"name="birthday">
-
+        <br><br>
         <h5 style="font-size: large;">Was My Web Good?</h5>
-    <input type="radio" id="html" name="course">
-    <label style="cursor: pointer;">A. Yes</label>
+        <div>
+            <input type="radio" id="ofc" name="web">
+            <label for="ofc" style="cursor: pointer;">A. Yes</label>
 
-    <input type="radio" id="html" name="course">
-    <label for="html">B. Very</label>
+            <input type="radio" id="very" name="web">
+            <label for="very">B. Very</label>
 
-    <input type="radio" id="html" name="course">
-    <label for="html">C. Absolutely</label>
+            <input type="radio" id="absolutely" name="web">
+            <label for="absolutely">C. Absolutely</label>
+        </div>
 
 
     <!-- CHECKBOX -->
      <div>
     <h5>What Makes You Think My Web is Good?</h5>
-    <ul><input type="checkbox" id="html" name="course">
-    <label for="html">Yg bikin webnya cantik</label></ul>
+    <ul><input type="checkbox" id="web" name="course">
+    <label for="web">Yg bikin webnya cantik</label></ul>
     <ul>
-    <input type="checkbox" id="html" name="course">
-    <label for="html">Good Web Design</label><br>
+    <input type="checkbox" id="good" name="course">
+    <label for="good">Good Web Design</label><br>
       </ul>
       
-    <h5 style="font-size: large;">btw dah liat jadwal kulyeah blom sebelum daftar?</h5>
-    <input type="radio" id="html" name="course">
-    <label style="cursor: pointer;">A. Yes</label>
-    <ul>
-    <input type="radio" id="html" name="course">
-    <label for="html">B. No</label>
-  </ul>
-    <h5>Gk nyeselkan daftar sini?</h5>
-        <ul><input type="radio" id="html" name="course">
-        <label for="html">Nyesal kk</label></ul>
-        <ul>
-        <input type="radio" id="html" name="course">
-        <label for="html">Urusan nanti aj deh kak</label>
-      </ul>
-      <ul>
-        <input type="radio" id="html" name="course">
-        <label for="html">Gk dong, I'm two steps ahead</label>
-      </ul>
 
-      <h5>Apa yg kamu harapkan dari kuliah?</h5>
-    <ul><input type="checkbox" id="html" name="course">
-    <label for="html">Ketemu pacar masa depan aq</label></ul>
+      <h5>Apa yg kamu harapkan dari kuliah ini?</h5>
+    <ul><input type="checkbox" id="pacar" name="course">
+    <label for="pacar">Ketemu pacar masa depan aq</label></ul>
     <ul>
-    <input type="checkbox" id="html" name="course">
-    <label for="html">Dosennnya frenli</label><br>
-      </ul>
-
+    <input type="checkbox" id="dosen" name="course">
+    <label for="dosen">Dosennnya frenli</label><br>
+    </ul>
     <ul>
-      <input type="checkbox" id="html" name="course">
-      <label for="html">Bisa nginap di gedung</label><br>
+      <input type="checkbox" id="nginap" name="course">
+      <label for="nginap">Bisa nginap di gedung</label><br>
     </ul>
 
     <ul>
-      <input type="checkbox" id="html" name="course">
-      <label for="html">Ga dipalak kating</label><br>
+      <input type="checkbox" id="kating" name="course">
+      <label for="kating">Ga dipalak kating</label><br>
     </ul>
 
     <ul>
-      <input type="checkbox" id="html" name="course">
-      <label for="html">Menanti hidup baru</label><br>
+      <input type="checkbox" id="hidup" name="course">
+      <label for="hidup">Menanti hidup baru</label><br>
     </ul>
     </div>
 
   </ul>
-        <textarea id="w3review" name="w3review" rows="2" cols="50">for what all these question? ga taw
-          </textarea>
+        <textarea id="w3review" name="w3review" rows="2" cols="50" required placeholder="for what all these question? ga taw. 
+        But feel free to express your concerns/feedback here"></textarea>
     <button type="reset" style="border-color: red;">Finish?</button><br>
 
     <a href="jadwal.html">
